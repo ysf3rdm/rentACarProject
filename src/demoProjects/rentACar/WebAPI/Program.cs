@@ -22,6 +22,7 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
+    System.Console.WriteLine("Sistem Başlatılıyor!");
     app.UseSwagger();
     app.UseSwaggerUI();
 }
